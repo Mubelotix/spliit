@@ -75,9 +75,9 @@ function Content({ children }: { children: React.ReactNode }) {
           <h1>
             <Image
               src="/logo-with-text.png"
-              className="m-1 h-auto w-auto"
-              width={(35 * 522) / 180}
-              height={35}
+              className="m-1 h-[35px] w-auto"
+              width={522}
+              height={180}
               alt="Spliit"
             />
           </h1>
@@ -112,9 +112,9 @@ function Content({ children }: { children: React.ReactNode }) {
             <Link className="flex items-center gap-2" href="/">
               <Image
                 src="/logo-with-text.png"
-                className="m-1 h-auto w-auto"
-                width={(35 * 522) / 180}
-                height={35}
+                className="m-1 h-[35px] w-auto"
+                width={522}
+                height={180}
                 alt="Spliit"
               />
             </Link>
